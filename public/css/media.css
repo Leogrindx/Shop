@@ -1,0 +1,276 @@
+@media only screen and (max-width: 1150px) {
+  .container {
+    width: 100%;
+    display: flex;
+  }
+
+  .search_block{
+    display: none;
+  }
+
+  .register input[type=text], input[type=email], input[type=password]{
+    width: 90%;
+    margin: 10px auto;
+  }
+  .check_email input[type=text]{
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .gender_register, .check{
+    margin: 5px auto;
+    padding: 0 5px;
+  }
+
+  .menu {
+    position: absolute;
+    margin-top: 70px;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .cart_items {
+    max-width: 565px;
+    margin: 0 5px 20px 5px;
+  }
+
+  /*-----------------------------------------------ITEMS--------------------------------------------------------*/
+
+
+  .items {
+    margin-top: 20px;
+  }
+
+  .slider {
+    margin: 10px 0 30px 0;
+  }
+
+  .size_item span{
+    text-transform: none;
+    font-weight: normal;
+    font-size: 12px;
+  }
+
+  .size_item p{
+    margin: 0;
+  }
+
+  .price_cart{
+    font-size: 15px;
+    height: 17px;
+  }
+
+  .brand{
+    font-size: 15px;
+    
+  }
+  .brand p{
+    max-width: 70px;
+    height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .filter_items{
+    margin-left: 15px;
+  }
+
+  .content_filter_elemnts{
+    top: 0px;
+    z-index: 11;
+  }
+
+  .drawer_filter{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    border: none;
+  }
+
+  .scroll {
+    max-height: 100%;
+    margin: 0 10px;
+  }
+
+  .checkbox_label::before {
+    width: 100%;
+  }
+
+  .checkbox_label {
+    width: 97%;
+    margin: 0 0 20px 0px;
+  }
+
+  .filter_butto{
+    position: fixed;
+    z-index: 12;
+    top: 90%;
+    width: 100%;
+    padding: 0 10px 40px 10px;
+    background-color: #fff;
+    margin: 15px 10px 10px 0px;
+  }
+
+  .f_right{
+    margin-right: 20px;
+  }
+
+  .filter_buttons{
+    transition: all 1s;
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .filter_box button{
+    width: 100%;
+  }
+  
+  .filter_buttons button {
+    margin: 0px 0px;
+  }
+
+  .close_filter{
+    display: none;
+    z-index: 11;
+    width: 40px;
+    height: 40px;
+    margin: 3px 0 0 5px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+  }
+  
+  .partition_filter{
+    width: 36px;
+    height: 5px;
+    background-color: #000;
+    transition: all 0.2s;
+    position: absolute;
+    border-radius: 5px;
+  }
+  .right_p{
+    transform: rotate(45deg);
+    top: 20px;
+  }
+
+  .left_p{
+    top: 20px;
+    transform: rotate(-45deg);
+  }
+
+  .h1_f{
+    display: block;
+    margin: 5px 0 15px 0;
+  }
+
+  .checkbox_label::after {
+    left: 95%;
+  }
+
+  /*-----------------------------------------------DETAIL_ITEM--------------------------------------------------------*/
+
+  .image{
+    display: none;
+  }
+
+  .image_button_slider {
+    width: 100%;
+    height: auto;
+  }
+
+  .slider {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+  }
+
+  .image_block{
+    margin: 0;
+  }
+
+  .image_button_slider {
+    margin: 0;
+  }
+
+  .slider::-webkit-scrollbar:vertical {
+    display: none;
+  }
+
+  .image_button_slider{
+    border: none;
+  }
+  .image_button_slider:hover{
+    border: none;
+  }
+  /*-----------------------------------------------Admin--------------------------------------------------------*/
+  .instruments_panel{
+    position: absolute;
+    left: -310px;
+  }
+  .header_admin {
+   padding: 10px 20px;
+  }
+
+  .burger_menu{
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin-left: 5px;
+  }
+  
+  .stick{
+    width: 70px;
+    height: 8px;
+    background-color: #000;
+    border-radius: 5px;
+    margin: 13px 0;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .logo {
+    margin: 20px 20px 20px 10px;
+  }
+
+  .block_partition{
+    width: 120px;
+  }
+
+  .register input, .check_email input {
+    font-size: 23px;
+    padding: 5px 9px;
+  }
+
+  .item {
+    margin: 20px 20px;
+  }
+
+  .basket_item {
+    margin: 30px 0 0 245px;
+  }
+
+  .size_item{
+    position: absolute;
+    left: 65%;
+    margin-top: -58px !important;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .name_cart{
+    display: none;
+  }
+}
+
